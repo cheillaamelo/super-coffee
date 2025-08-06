@@ -1,0 +1,14 @@
+@use "@/styles/variables" as *;
+@use "@/styles/mixins" as *;
+
+.media {
+  display: flex;
+  gap: 1rem;
+  margin-left: -0.4rem;
+
+  svg {
+    height: 2.1 rem;
+    width: 2.1rem;
+    color: $secondary;
+  }
+}

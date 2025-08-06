@@ -1,0 +1,16 @@
+@use "@/styles/variables" as *;
+@use "@/styles/mixins" as *;
+
+.products {
+  @include max-width;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  scroll-margin-top: 6rem;
+
+  @include device(notebook) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include device(mobile) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

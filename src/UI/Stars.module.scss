@@ -1,0 +1,12 @@
+@use "@/styles/variables" as *;
+
+.stars {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+  span {
+    margin-left: 0.5rem;
+    color: $darkSecondary;
+  }
+}
