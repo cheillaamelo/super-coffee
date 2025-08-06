@@ -13,6 +13,8 @@ const inria_serif = Inria_Serif({
 
 export const metadata = {
   title: "Super Coffee",
+  description: "",
+  image: "/images/pictures/about.png",
 };
 
 export default function RootLayout({ children }) {
